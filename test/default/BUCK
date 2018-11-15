@@ -1,0 +1,14 @@
+cxx_binary(
+  name = 'hash', 
+  header_namespace = '', 
+  headers = glob([
+    '*.h', 
+  ]), 
+  srcs = [
+    'hash.c', 
+  ], 
+  deps = [
+    '//:sodium', 
+    '//test/quirks:quirks', 
+  ], 
+)

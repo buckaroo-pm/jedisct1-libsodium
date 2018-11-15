@@ -157,3 +157,8 @@ test/default/verify1
 test/default/xchacha20
 test/js.done
 testing
+.buckd
+buck-out
+.buckconfig.local
+.buckconfig.d
+BUCKAROO_DEPS

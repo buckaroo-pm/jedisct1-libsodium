@@ -1,0 +1,11 @@
+prebuilt_cxx_library(
+  name = 'quirks', 
+  header_namespace = '', 
+  header_only = True, 
+  exported_headers = [
+    'quirks.h', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)
