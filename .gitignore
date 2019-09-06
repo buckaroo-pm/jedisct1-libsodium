@@ -162,3 +162,6 @@ buck-out
 .buckconfig.local
 .buckconfig.d
 BUCKAROO_DEPS
+buckaroo_macros.bzl
+.ionide
+buckaroo
